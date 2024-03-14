@@ -6,6 +6,7 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
